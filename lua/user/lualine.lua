@@ -3,19 +3,15 @@ if not status_ok then
 	return
 end
 
-local filetype = {
-	"filetype",
-	icons_enabled = false,
-	icon = nil,
-}
-require('lualine').setup {
+lualine.setup {
   options = {
+    laststatus = 0,
     icons_enabled = true,
     theme = 'auto',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
-      statusline = {"NvimTree"},
+      statusline = {"outline","project","NvimTree","help","startify","dashboard","packer","neogitstatus","Trouble"},
       winbar = {},
     },
     ignore_focus = {},
@@ -31,7 +27,7 @@ require('lualine').setup {
     lualine_a = {'mode'},
     lualine_b = {'branch', 'diff', 'diagnostics'},
     lualine_c = {'filename'},
-    lualine_x = {'encoding', 'fileformat', filetype},
+    lualine_x = {'encoding', 'fileformat', 'filetype'},
     lualine_y = {'progress'},
     lualine_z = {'location'}
   },
