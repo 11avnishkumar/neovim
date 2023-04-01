@@ -11,7 +11,7 @@ lualine.setup {
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
-      statusline = {"outline","project","NvimTree","help","startify","dashboard","packer","neogitstatus","Trouble"},
+      statusline = {"outline","project","NvimTree","help","startify","dashboard","packer","neogitstatus","Trouble","nofile"},
       winbar = {},
     },
     ignore_focus = {},

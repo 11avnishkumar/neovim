@@ -40,7 +40,8 @@ M.setup = function()
 		},
 	}
 
-	vim.diagnostic.config(config)
+	--vim.diagnostic.config(config)
+	vim.diagnostic.disable() -- Disable diagnostic message and icons,remove the line to enable
 
 	vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, {
 		border = "rounded",
