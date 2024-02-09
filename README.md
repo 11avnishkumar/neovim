@@ -4,7 +4,7 @@
 
 ### Special Thanks
 
-I would like to say thank you to [Christian Chiarulli](https://www.chrisatmachine.com/) his youtube channel  helps me a lot to learn about [neovim](https://neovim.io/).
+[Christian Chiarulli](https://www.chrisatmachine.com/).
 
 * [Youtube Channel](https://www.youtube.com/@chrisatmachine)
 * [github](https://github.com/LunarVim/Neovim-from-scratch)
